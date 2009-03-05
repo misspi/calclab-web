@@ -23,7 +23,7 @@ body {
 }
 
 #logo {
-    background-image: url(images/calclablogo.png);
+    background-image: url(../images/calclablogo.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 210px;
@@ -52,19 +52,19 @@ body {
 }
 
 #services {
-    background-image: url(images/service_off.png);
+    background-image: url(../images/service_off.png);
 }
 
 #jobs {
-    background-image: url(images/jobs_off.png);
+    background-image: url(../images/jobs_off.png);
 }
 
 #opensource {
-    background-image: url(images/opensource_off.png);
+    background-image: url(../images/opensource_off.png);
 }
 
 #research {
-    background-image: url(images/research_off.png);
+    background-image: url(../images/research_off.png);
 }
 
 .sidebar {
