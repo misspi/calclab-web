@@ -1,5 +1,17 @@
-Dir['tasks/**/*.rake'].sort.each { |rakefile| load rakefile }
+require 'rake/clean'
 
-task :default do
-  puts 'This is an example rake task.'
+desc "generate files"
+task :site => :assets do
+  
 end
+
+task :assets => :directories do
+
+end
+
+taks :directories do
+  puts "Creating directories..."
+  
+end
+
+task :default => 'site'
