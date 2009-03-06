@@ -19,7 +19,7 @@ body {
 .header {
     height: 59px;
     background-color: #d0e0e6;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #logo {
@@ -32,6 +32,7 @@ body {
     float: left;
 }
 
+
 .navigation {
     float: left;
     padding-left: 0px;
@@ -39,17 +40,18 @@ body {
     height: 24px;
     background-color: #8699a7;
     margin-top: 21px;
-    margin-bottom: 17px;
+    margin-bottom: 17px;    
 }
 
 .navigation ul a {
-    background-color: #cccccc;
     float: left;
     background-repeat: no-repeat;
     background-position: center;
-    width: 148px;
-    height: 24px;
-}
+    width: 146px;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 20px;    
+    }
 
 #services {
     background-image: url(../images/service_off.png);
@@ -67,17 +69,49 @@ body {
     background-image: url(../images/research_off.png);
 }
 
+#contact {
+    background-image: url(../images/envelope.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 24px;
+    margin-left: 14px;
+    float: left;
+    margin-right: 0;
+}
+
+#services-on {
+    background-image: url(../images/service_on.png);
+    border: 1px solid #636363;
+}
+
+#jobs-on {
+    background-image: url(../images/jobs_on.png);
+    border: 1px solid #636363;
+}
+
+#opensource-on {
+    background-image: url(../images/opensource_on.png);
+    border: 1px solid #636363;
+}
+
+#research-on {
+    background-image: url(../images/research_on.png);
+    border: 1px solid #636363;
+}
+
 .sidebar {
     width: 210px;
     background-color: #eaf4fa;
     float: left;
+    padding-top: 40px;
 }
 
 .main {
     background-color: #f8fafb;
     width: 670px;
     margin-left: 210px;
-    padding: 30px 40px;
+    padding: 40px 40px;
 }
 
 h1 {
