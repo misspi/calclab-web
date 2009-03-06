@@ -40,7 +40,7 @@ body {
     height: 24px;
     background-color: #8699a7;
     margin-top: 21px;
-    margin-bottom: 17px;    
+    margin-bottom: 17px;
 }
 
 .navigation ul a {
@@ -50,8 +50,8 @@ body {
     width: 146px;
     height: 22px;
     margin-left: 5px;
-    margin-right: 20px;    
-    }
+    margin-right: 20px;
+}
 
 #services {
     background-image: url(../images/service_off.png);
@@ -73,9 +73,9 @@ body {
     background-image: url(../images/envelope.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 50px;
+    width: 33px;
     height: 24px;
-    margin-left: 14px;
+    margin-left: 31px;
     float: left;
     margin-right: 0;
 }
@@ -107,12 +107,21 @@ body {
     padding-top: 40px;
 }
 
+.sidebar .first {
+    margin-top: 40px;
+}
+
 .main {
     background-color: #f8fafb;
-    width: 670px;
+    width: 710px;
     margin-left: 210px;
-    padding: 40px 40px;
+    padding: 40px 40px 40px 0px;
 }
+
+.main .first {
+    margin-top: 40px;
+}
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -120,4 +129,18 @@ h1 {
     color: #a1afb4;
     font-weight: bold;
     letter-spacing: 0.1em;
+}
+
+
+.mainimg {
+    float: left;
+    padding-left: 0px;
+    padding-top: 20px;
+
+}
+.maintxt {
+    margin-left: 155px;
+
+
+
 }
