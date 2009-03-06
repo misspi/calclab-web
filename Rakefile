@@ -1,5 +1,7 @@
 require 'rake/clean'
 
+CLEAN << 'output'
+
 desc "generate files"
 task :site => :assets do
   
@@ -9,9 +11,11 @@ task :assets => :directories do
 
 end
 
-taks :directories do
+task :directories do
   puts "Creating directories..."
-  
+  ['output', 'output/css', 'output/images'].each do |folder|
+    Dir.mkdir(folder) unless File.exists? folder
+  end
 end
 
 task :default => 'site'
