@@ -73,9 +73,9 @@ body {
     background-image: url(../images/envelope.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 50px;
+    width: 33px;
     height: 24px;
-    margin-left: 14px;
+    margin-left: 31px;
     float: left;
     margin-right: 0;
 }
@@ -109,9 +109,9 @@ body {
 
 .main {
     background-color: #f8fafb;
-    width: 670px;
+    width: 710px;
     margin-left: 210px;
-    padding: 40px 40px;
+    padding: 40px 40px 40px 0px;
 }
 
 h1 {
@@ -120,4 +120,18 @@ h1 {
     color: #a1afb4;
     font-weight: bold;
     letter-spacing: 0.1em;
+}
+
+
+.mainimg {
+    float: left;
+    padding-left: 0px;
+    padding-top: 20px;
+
+}
+.maintxt {
+  margin-left: 155px;
+
+
+
 }
