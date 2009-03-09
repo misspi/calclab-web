@@ -10,6 +10,11 @@ body {
     padding: 5em 0;
 }
 
+a {
+    text-decoration: none;
+    color: #a13319;
+    font-weight: bold;
+}
 .contenedor {
     width: 960px;
     margin: 0 auto;
@@ -111,6 +116,12 @@ body {
     margin-top: 40px;
 }
 
+.sidebar .txt {
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
 .main {
     background-color: #f8fafb;
     width: 710px;
@@ -130,6 +141,10 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.1em;
 }
+h2 {
+    color: #333333;
+    font-weight: bold;
+    }
 
 
 .mainimg {
@@ -140,7 +155,10 @@ h1 {
 }
 .maintxt {
     margin-left: 155px;
+}
 
-
+.main .screen {
+    border: solid 1px #afbcc5;
+    margin-left: 53px;
 
 }
